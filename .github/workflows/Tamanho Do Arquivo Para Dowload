@@ -1,0 +1,4 @@
+Name: Tamanho do Arquivo Para Dowload
+tamanho = float(input('Tamanho do arquivo em MB : '))
+velocidade = float(input('Velocidade de Internet: '))
+print('Tempo de download: %.0f Minutos ' %((tamanho / velocidade) * 60))
