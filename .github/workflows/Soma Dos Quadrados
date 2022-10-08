@@ -1,0 +1,6 @@
+name: Soma Dos Quadrados
+
+somadosquadrados = 0
+for i in range(10):
+    somadosquadrados += int(input(f"Digite o {i+1}º numero inteiro: ")) ** 2
+print(f"A soma dos quadrados dos numeros digitados é {somadosquadrados}")
